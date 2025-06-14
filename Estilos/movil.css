@@ -1,0 +1,106 @@
+@media (max-width: 599px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    #open-menu{
+        display: flex;
+        align-items: center;
+        background: none;
+        border: none;
+    }
+
+    #close-menu{
+        display: flex;
+        justify-content: end;
+        margin: 30px 0 20px 0;
+        padding: 0;
+        background: none;
+        border: none;
+    }
+
+    .navegador{
+        opacity: 0;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 20px;
+        width: 45%;
+        background: #ffffffff;
+        box-shadow: 0 0 0 100vh #ffffffff;
+    }
+
+    .navegador.visible{
+        opacity: 1;
+        visibility: visible;
+        padding: 0;
+        margin: 0;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        list-style-type: none;
+    }
+
+    .navegador .navegador-link{
+        color: #000000;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 300;
+        transition: .9s;
+    }
+
+
+    .hero{
+        padding: 60px 20px;
+    }
+
+    .hero h1{
+        font-size: 15px;
+    }
+    .hero p{
+        font-size: 25px;
+    }
+
+    .productos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buscador{
+        width: 80%;
+    }
+
+    .buscador input{
+        width: 100%;
+    }
+
+    .produc{
+        margin-left: 20px;
+    }
+
+    .formulario{
+        width: 80%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grupo-formulario{
+        width: 100%;
+    }
+
+}
