@@ -1,3 +1,19 @@
+// Control del menú hamburguesa
+const openMenuBtn = document.getElementById('open-menu');
+const closeMenuBtn = document.getElementById('close-menu');
+const navegador = document.getElementById('navegador');
+
+openMenuBtn.addEventListener('click', () => {
+    navegador.classList.add('visible'); // Agrega una clase para mostrar el menú
+});
+
+closeMenuBtn.addEventListener('click', () => {
+    navegador.classList.remove('visible'); // Remueve la clase para ocultarlo
+});
+
+
+
+
 // Obtener elementos del DOM
 const inputBusqueda = document.getElementById('busqueda-producto');
 const selectOrdenar = document.getElementById('ordenar-productos');
